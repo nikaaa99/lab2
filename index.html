@@ -1,0 +1,189 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <title>Сравнение автомобилей: Lamborghini, Voyah, Jaguar</title>
+    <style>
+        body {
+        font-family: 'Segoe UI', Arial, sans-serif;
+        background: #f0f2f5;
+        margin: 0;
+        padding: 40px 20px;
+        color: #333;
+    }
+table {
+        width: 100%;
+        max-width: 1100px;
+        margin: 0 auto;                 /* центрируем по горизонтали */
+        border-collapse: collapse;      /* убираем двойные границы */
+        background: #fff;
+        border-radius: 12px;            /* скруглённые углы */
+        overflow: hidden;               /* чтобы углы обрезались */
+        box-shadow: 0 10px 30px rgba(0, 0, 0, 0.1); /* мягкая тень */
+    }
+     caption {
+        caption-side: top;
+        font-size: 1.6em;
+        font-weight: bold;
+        color: #2c3e50;
+        padding: 20px;
+        text-align: center;
+    }
+    th, td {
+        padding: 14px 18px;
+        text-align: left;
+        border-bottom: 1px solid #eaeaea;  /* тонкая линия снизу */
+    }
+    thead th {
+        background: linear-gradient(135deg, #2c3e50, #4a6572);
+        color: #fff;
+        font-size: 1.05em;
+        text-align: center;
+        border-bottom: none;
+        padding: 18px 14px;
+    }
+    mark {
+    background: #e3f2fd;            
+    color: #1565c0;                  
+    padding: 2px 6px;
+    border-radius: 4px;              
+    font-weight: 600;
+}
+thead th {
+    background: #f8fafc;             
+    color: #334155;                 
+    font-size: 1.05em;
+    text-align: center;
+    border-bottom: 2px solid #cbd5e1; 
+    padding: 18px 14px;
+}
+summary {
+    color: #64748b;                  
+    font-weight: 500;
+}
+summary:hover {
+    color: #1565c0;                 
+}
+    </style>
+</head>
+
+<body>
+<table>
+    <caption>Сравнительная таблица характеристик автомобилей</caption>
+
+    <thead>
+        <tr>
+            <th>Характеристика</th>
+
+            <th>
+                Lamborghini
+                <details>
+                <summary>О производителе</summary>
+                Итальянский производитель люксовых спортивных автомобилей, 
+                основан в 1963 году Ферруччо Ламборгини. Штаб-квартира: 
+                Сант-Агата-Болоньезе.
+            </details>
+            </th>
+            <th>
+                Voyah
+               <details>
+                <summary>О производителе</summary>
+                Китайский премиальный бренд электромобилей, принадлежит 
+                концерну Dongfeng Motor. Основан в 2020 году.
+            </details> 
+            </th>
+            <th>
+                Jaguar
+                <details>
+                <summary>О производителе</summary>
+                Британский производитель люксовых автомобилей, основан 
+                в 1935 году Уильямом Лайонсом. С 2008 года принадлежит 
+                индийской Tata Motors.
+            </details>
+            </th>
+
+        </tr>
+    </thead>
+
+    <tbody>
+        <tr>
+            <td><strong>Самая дорогая модель</strong></td>
+            <td><mark>Revuelto</mark> — от 60 млн руб.</td>
+            <td><mark>Dreamer</mark> — от 8 млн руб.</td>
+            <td><mark>F-Type R</mark> — от 12 млн руб.</td>
+        </tr>
+
+        <tr>
+            <td><strong>Самая дешёвая модель</strong></td>
+            <td><mark>Huracán</mark> — от 25 млн руб.</td>
+            <td><mark>Free</mark> — от 5 млн руб.</td>
+            <td><mark>XE</mark> — от 4 млн руб.</td>
+        </tr>
+
+        <tr>
+            <td><strong>Двигатель</strong></td>
+            <td>6.5 л, V12</td>
+            <td>Электрический, 2 мотора</td>
+            <td>5.0 л, V8 компрессор</td>
+        </tr>
+
+        <tr>
+            <td><strong>Расход топлива</strong></td>
+            <td>18–20 л / 100 км</td>
+            <td><mark>0 л / 100 км</mark> (электро)</td>
+            <td>10–12 л / 100 км</td>
+        </tr>
+
+        <tr>
+            <td><strong>Скорость (0–100 км/ч)</strong></td>
+            <td><mark>2.5 сек</mark></td>
+            <td>4.5 сек</td>
+            <td>3.7 сек</td>
+        </tr>
+
+        <tr>
+            <td><strong>Экологические сертификаты</strong></td>
+            <td>Euro 6</td>
+            <td><mark>Euro 6, ZEV</mark></td>
+            <td>Euro 6</td>
+        </tr>
+
+        <tr>
+            <td><strong>Гарантийный срок</strong></td>
+            <td>3 года</td>
+            <td><mark>5 лет</mark></td>
+            <td>3 года</td>
+        </tr>
+
+        <tr>
+            <td><strong>Максимальная скорость</strong></td>
+            <td><mark>350 км/ч</mark></td>
+            <td>200 км/ч</td>
+            <td>300 км/ч</td>
+        </tr>
+
+        <tr>
+            <td><strong>Тип трансмиссии</strong></td>
+            <td>Автоматическая (робот)</td>
+            <td>Автоматическая (редуктор)</td>
+            <td>Автоматическая (АКПП)</td>
+        </tr>
+
+        <tr>
+            <td><strong>Количество передач</strong></td>
+            <td>8</td>
+            <td>1</td>
+            <td>8</td>
+        </tr>
+    </tbody>
+
+    <tfoot>
+        <tr>
+            <td colspan="4">
+                Данные носят ознакомительный характер...
+            </td>
+        </tr>
+    </tfoot>
+</table>
+</body>
+</html>
